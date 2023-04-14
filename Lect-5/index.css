@@ -1,0 +1,37 @@
+*{
+  background-color: bisque;
+}
+h1{
+  background-color: blue;
+}
+p{
+  background-color: chartreuse;
+}
+
+
+.bd{
+  background-color: aquamarine;
+} 
+ .p{
+  background-color: burlywood;
+}
+#xyz{
+  background-color: brown;
+} 
+
+.vikas{
+  background-color: aqua;
+}
+
+
+#xyz{
+  background-color: red;
+}
+p i{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.cl1{
+  background-color: blanchedalmond;
+}
