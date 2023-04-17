@@ -1,0 +1,47 @@
+/* p,h1{
+    color: blue;
+}
+/* h1{
+    color: blue;
+} */
+/* .para{
+    color: red;
+}
+#btn{
+    color: aqua;
+    font-size: 40px;
+    background-color: blueviolet;
+} */ 
+
+/* div p{
+    background-color: red;
+} */
+/* div ul{
+    background-color: rgb(98, 0, 255);
+} */
+
+/* div > p{
+    background-color: red;
+} */
+/* div + p{
+    background-color: red;
+} */
+/* div ~ p{
+    background-color: red;
+} */
+a{
+    font-size: 40px;
+}
+a:hover{
+    background-color: blueviolet;
+    font-size: 0px;
+}
+a:link{
+     color: blueviolet;
+}
+a:active{
+    color: green;
+}
+a:visited{
+    color: red;
+}

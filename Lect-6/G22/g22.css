@@ -1,0 +1,47 @@
+/* a{
+    background-color: aquamarine;
+    font-size: 40px;
+}
+a[href*="http"]{
+    color: red;
+    font-size: 100px;
+} */
+
+/* a[href$="in"]{
+    font-size: 50px;
+} */
+
+/* a[href^="https"]{
+    background-color: red;
+} */
+
+/* ul li{
+    font-size: 70px;
+} */
+/* ul p{
+    font-size: 70px;
+} */
+/* div p{
+color: red;
+} */
+
+/* div > p{
+    background-color: blueviolet;
+} */
+/* div + p{
+    background-color: blueviolet;
+} */
+
+a:hover{
+    background-color: blueviolet;
+    font-size: 40px;
+}
+a:link{
+    background-color: blue;
+}
+a:active{
+    background-color: green;
+}
+a:visited{
+    background-color: red;
+}
