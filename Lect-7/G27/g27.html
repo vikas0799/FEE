@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combinators AND Attributes selecters</title>
+    <style>
+        /* div p{
+           background-color: aqua;
+        }
+        div p{
+            font-style: italic;
+        } */
+        /* div > p{
+            font-style: italic;
+        } */
+        /* div + p{
+            font-style: italic;
+        } */
+        /* div ~ p{
+            font-style: italic;
+        } */
+        /* a[target]{
+            background-color: yellow;
+            font-size: 40px;
+            text-decoration: none;
+
+        } */
+        a{
+            font-size: 40px;
+        }
+        /* a[href ^="https"]{   
+         color: red;
+ } */
+ /* a[href $="in"]{   
+         color: red;
+          font-style: italic;
+         background-color: antiquewhite;
+ } */
+ /* a[href $="com"]{   
+         color: red;
+         font-style: italic;
+         background-color: antiquewhite;
+ } */
+ a[href *="block"]{   
+         color: red;
+         font-style: italic;
+         background-color: antiquewhite;
+ }
+    </style>
+</head>
+<body>
+    <!-- <div>
+        <h1>this is heading 1</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+        <ul>
+            <li>item-1</li>
+            <li>item-2</li>
+            <li>item-3</li>
+        </ul>
+        <section>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+        </section>
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur.</p>
+    <p>Lorem ipsum dolor sit amet.</p> -->
+
+ <a href="blockhttps://www.google.com" target="_blank">google</a><br><br>
+ <a href="ht://www.yahoo.com" target="_blank">yahoo</a><br><br>
+ <a href="http://codingblocksin">codingblocks</a><br><br>
+ <a href="ht://codingblksin">codingblocks</a><br><br>
+ <a href="https://codingblockscom">codingblocks</a><br>
+</body>
+</html>
