@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>attributs selectors</title>
+    <link rel="stylesheet" href="g24.css">
+    <style>
+        /* attributes selecters */
+        
+        /* a[target]{
+            font-size: bold;
+            background-color: aqua;
+        } */
+        /* string matching */
+
+        /* a[href ^="https" ]{
+            font-size: 40px;
+            background-color: aqua;
+        } */
+        /* a[href $="in" ]{
+            font-size: 40px;
+            background-color: aqua;
+        } */
+        a[href *="cb"] {
+            font-size: 40px;
+            background-color: aqua;
+        }
+    </style>
+    <link rel="stylesheet" href="g24.css">
+</head>
+
+<body>
+    <h1>this is heading</h1>
+    <a href="https://www.google.com" target="_blank">google</a><br>
+    <a href="https://www.yahoo.in" target="_blank">yahoo</a><br>
+    <a href="http://www.cb.com">coding blocks</a><br>
+    <a href="https://www.aws.com" target="_blank">amazone</a><br>
+    <a href="https://www.cbms.in">microsoft</a><br>
+    <a href="cbhttps://www.cbms.in">microsoft</a><br>
+    <a>click me</a>
+</body>
+
+</html>

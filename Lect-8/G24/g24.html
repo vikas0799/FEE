@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>combinators and psedo class</title>
+    <style>
+        /* desendent combinators selectors */
+        /* div h1{
+            background-color: aquamarine;
+        } */
+        /* div ul{
+            background-color: aqua;
+            font-size: 40px;
+        } */
+
+        /* child combinators */
+        /* div > h1{
+            background-color: aqua;
+        } */
+        /* div > p{
+            background-color: aqua;
+        } */
+        /* div + h1{
+            background-color: aqua;
+        } */
+        div~h1 {
+            background-color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>this is starting heading</h1>
+    <div>
+        <h1>this is para -1</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+        <h1>this is heading -2</h1>
+        <ul>
+            <li>item-1</li>
+            <li>item-2</li>
+            <li>itwm-3</li>
+        </ul>
+        <section>
+            <p>this is grand child of div</p>
+            <h1>this is heading , grand child of div</h1>
+        </section>
+    </div>
+    <!-- <ul><li>item-1</li></ul> -->
+    <h1>this is haeding</h1>
+    <h1>this is heding </h1>
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+
+/* psuedoElements */
+
+p::first-line{
+    color: rgb(106, 87, 50);
+}
+
+p::first-letter{
+    font-size: 10px;
+}
+.phone::before{
+    content: '\260E';
+}
+
+p{
+    font-size: 30px;
+}
+
+
+/* div{
+    border:40px solid red;
+    padding: 0px;
+    margin: 200px 100px;
+    margin-top: 30px;
+    
+} */
+div{
+    border:5px solid RED;
+    /* padding-left: 20px;
+    padding-top: 0px;
+    padding-bottom: 30px;
+    padding-right: 30px; */
+    padding: 10px 20px;
+    margin: 10px 20px;
+}
+
+/* font properties */
+div{
+    font-style: italic;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
