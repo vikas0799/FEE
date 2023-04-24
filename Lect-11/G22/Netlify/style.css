@@ -1,0 +1,14 @@
+div{
+    background-color: aquamarine;
+    height: 1100px;
+    background-image: url("./ks.webp");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+}
+h1{
+    color:chartreuse;
+}
+p{
+    color: chartreuse;
+}
