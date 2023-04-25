@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid</title>
+    <style>
+        .container {
+            background-color: aqua;
+            display: grid;
+            /* grid-template-columns: 400px 200px; */
+            /* grid-template-columns: 1fr 100px; */
+            grid-template-columns: 2fr 1fr 1fr;
+            /* grid-template-columns: repeat(2,1fr); */
+            /* grid-template-rows: 1fr 1fr 1fr; */
+            grid-template-rows: 1fr 1fr 2fr;
+
+            gap: 15px;
+            /* gap: 5px 15px;
+            row-gap: 10px;
+            column-gap: 5px; */
+            height: 1200px;
+        }
+
+        .box {
+            background-color: bisque;
+            /* margin: 5px; */
+            /* height: 100px; */
+        }
+
+        #box1 {
+            background-color: rgb(155, 141, 169);
+            grid-column: 1/4;
+            /* grid-column-start: 1;
+            grid-column-end: 4; */
+        }
+
+        ul {
+            display: inline-flex;
+            list-style: none;
+        }
+
+        li {
+            margin: 10px;
+            color: rgb(247, 7, 7);
+            font-size: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box" id="box1">Header
+            <!-- <ul>
+                <li>Home</li>
+                <li>Services</li>
+                <li>contact us</li>
+                <li>fedback</li>
+            </ul> -->
+        </div>
+        <div class="box"></div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+        <div class="box">7</div>
+        <div class="box">8</div>
+        <div class="box">6</div>
+        <div class="box">7</div>
+        <div class="box">8</div>
+    </div>
+
+</body>
+
+</html>
