@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            height: 1000px;
+            display: grid;
+             /* grid-template-columns: 50%  50%; */
+             grid-template-columns: repeat(3,1fr);
+             /* grid-template-columns: 200px 1fr auto; */
+             /* grid-template-columns: 200px auto auto; */
+
+
+            gap:20px;
+             justify-items: end;
+            align-items: end; 
+             /* grid-template-rows: auto; */
+           /* justify-items: center; */
+           /* justify-content: center; */
+           /* align-items: center; */
+           /* align-content: end; */
+           /* place-items:center; */
+    /* grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); */
+
+        }
+        .box{
+            background-color: blanchedalmond;
+            border-radius: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+        <div class="box">7</div>
+        <div class="box">8</div>
+        <div class="box">9</div>
+    </div>
+    
+</body>
+</html>
