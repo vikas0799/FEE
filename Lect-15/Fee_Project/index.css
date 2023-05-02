@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: x-large;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(79, 36, 199);
+}
+
+label {
+    /* background-color: white; */
+    text-align: center;
+    font-weight: bold;
+}
+
+
+form {
+    margin: 0 auto;
+    width: 70%;
+    height: 600px;
+    padding-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+label {
+    /* display: inline-flex; */
+    width: 100px;
+    margin: 10px;
+    text-align: right;
+    clear: both;
+    float: left;
+    margin-right: 0px;
+
+}
+
+select,option{
+   height: 100px;
+    font-size:20px;
+    padding: 30px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+    height: 40px;
+    width: 70%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+textarea{
+    height: 100px;
+}
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+
+body {
+    /* background-image: url(chitkara_university.jpg); */
+    background-image: url(background.png);
+
+    background-repeat: no-repeat;
+    background-size: 100% 1100px;
+    background-position: center;
+}
+#btn{
+    width: 200px;
+    height: 50px;
+}
