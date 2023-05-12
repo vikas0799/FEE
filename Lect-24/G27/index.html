@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+<body>
+    <h1>Lorem ipsum dolor sit.</h1>
+     <p id="para">thisi is para </p>
+    <div class="container">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+
+    </div>
+    <script>
+        // console.log(document);
+    //     console.log(document.body);
+    //    let x= document.body;
+    //    x.style.backgroundColor="blue";
+
+    //    let y= document.getElementById("para")
+    //  console.log(y);
+    //    y.style.color="red";
+
+// let ele=document.getElementsByTagName("p");
+// console.log(ele);
+// ele=document.getElementsByClassName("box");
+// console.log(ele);
+
+let elem=document.querySelector('.box');
+// let elem=document.querySelectorAll('.box');
+
+console.log(elem);
+elem.style.color="red";
+    </script>
+</body>
+</html>

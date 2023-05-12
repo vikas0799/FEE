@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .container {
+            background-color: aqua;
+            display: flex;
+            justify-content: center;
+        }
+
+        .box {
+            background-color: antiquewhite;
+            margin: 5px;
+            height: 100px;
+            width: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="heading">This is headings</h1>
+    <p class="para" id="para1">This is para 1</p>
+    <p class="para" id="para2">This is para 2</p>
+    <div class="container">
+        <div class="box">item-1</div>
+        <div class="box">item-2</div>
+        <div class="box">item-3</div>
+        <div class="box">item-4</div>
+    </div>
+
+    <script>
+        // console.log(document.body);
+        //  let x=document.body;
+        //  x.style.backgroundColor="red";
+        //    let y= document.getElementById("heading");
+        //    console.log(y);
+        //    y.style.color="blue";
+        //    y.innerHTML="Dipanshu is bad student";
+        //    y.innerHTML="<p>This is para</p>";
+
+        // let y=document.getElementsByTagName("p");
+        // console.log(y);
+        // let ele=document.getElementsByClassName("box");
+        // console.log(ele);
+        //  let y = document.getElementsByClassName("box");
+        // console.log(y);
+        // y[0].style.backgroundColor = "red";
+
+
+        let elem=document.querySelector('.box');
+        // let elem=document.querySelectorAll('.box');
+
+        console.log(elem);
+        elem.style.color="blue";
+
+       
+
+    </script>
+</body>
+
+</html>
