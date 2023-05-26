@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url("bg.webp");
+            /* opacity: 0.5; */
+        }
+        input[type="text"]::placeholder {     
+                 /* Firefox, Chrome, Opera */
+                 text-align: center;
+             }
+        div{
+            height: 400px;
+            width: 600px;
+            background: rgba(135, 201, 29, 0.8);
+            position: absolute;
+            top: 20%;
+            left: 25%;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            padding: 30px;
+            justify-content: center;
+            /* align-items: center; */
+            border-radius: 30px;
+        }
+        input{
+            height: 40px;
+            padding: 5px;
+            margin: 5px;
+            border: 3px solid rgb(11, 11, 11);
+            border-radius: 10px;
+        }
+        #btn{
+            width: 200px;
+            height: 40px;
+            background-color: green;
+            margin-left: 30%;
+        }
+        img{
+            height: 30px;
+            width: 30px;
+            position: absolute;
+            top: 0px;
+            right: 0px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome To Home Page</h1>
+    <div class="box">
+        <img src="cross.png" alt="" srcset="" onclick="disappear()">
+        <input type="text" name="" id="userid" placeholder="Enter your UserID">
+        <input type="text" name="" id="password" placeholder="Enter Your password">
+        <button id="btn" onclick="Login()">LogIn</button>
+    </div>
+    <script>
+    //    function disappear(){
+    //     console.log("hgf");
+    //     document.getElementsByClassName("box")[0].style.display="none";
+    //    }
+       
+       function LogIn(){
+        let username=localStorage.getItem("username");
+        let password=localStorage.getItem("password");
+        let iusername=document.getElementById("userid").value;
+        let ipassword=document.getElementById("password").value;
+        if(username==iusername&&password==ipassword){
+            console.log("logedIn");
+        document.getElementsByClassName("box")[0].style.display="none";
+        }
+        else{
+            console.log("enter your correct password");
+        }
+       }
+    </script>
+</body>
+</html>
